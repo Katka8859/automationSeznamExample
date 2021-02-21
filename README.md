@@ -2,11 +2,11 @@
 * nainstalovaný git
 * nainstalované [nodejs](https://nodejs.org/en/) 
   * Můžete zkontrolovat v terminálu (= příkazový řádek) příkazem `node -v`
-* webový prohlížeč [Chrome](https://www.google.com/intl/cs_CZ/chrome/), verze "^87.0.5"
+* webový prohlížeč [Chrome](https://www.google.com/intl/cs_CZ/chrome/), verze "^88.0.0"
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Instalace 
-`git clone https://github.com/Katka8859/Automation-seznam.git`
+`git clone https://github.com/Katka8859/automationSeznamExample.git`
 V daném adresáři spustit `npm install` 
    
 
@@ -14,4 +14,4 @@ V daném adresáři spustit `npm install`
 `npm test -- --spec Automation.js`
 
 ### Výsledek
-test vytvoří 3 screenshoty ověřující úspěšné přihlášení, odhlášení a odeslání emailu
+test vytvoří screenshoty ověřující úspěšné přihlášení, odhlášení, odeslání emailu a smazání emailu.
