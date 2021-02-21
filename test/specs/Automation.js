@@ -37,7 +37,7 @@ describe('Email functions', () => {
          signIn.signInprocess(variables.username, variables.passwordNumber)
      })
         
-    it('Send email', () => {        
+    it('Sending email', () => {        
         
         buttons.writeEmailBtn.click()
         email.sendEmail(variables.adress, variables.subject, variables.text)
