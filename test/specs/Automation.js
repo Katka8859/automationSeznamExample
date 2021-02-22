@@ -51,6 +51,9 @@ describe('Email functions', () => {
 
         saveScreenshot('Email_test')
         
+        browser.url('')
+        signOut.signOutprocess()
+        
 
     });
         
